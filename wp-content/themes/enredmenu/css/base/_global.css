@@ -1,0 +1,15 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p {
+  font-size: 1.6rem;
+}

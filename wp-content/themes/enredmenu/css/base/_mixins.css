@@ -1,0 +1,34 @@
+/* SMALL */
+@define-mixin atSmall {
+  @media (min-width: 530px) {
+    @mixin-content;
+  }
+}
+/* MEDIUM */
+@define-mixin atMedium {
+  @media (min-width: 800px) {
+    @mixin-content;
+  }
+}
+/* LARGE */
+@define-mixin atLarge {
+  @media (min-width: 1200px) {
+    @mixin-content;
+  }
+}
+/* CLEARFIX */
+@define-mixin clearfix {
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+/* IMAGE BACKGROUND FIXED */
+@define mixin imgBack {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
